@@ -1,6 +1,6 @@
 jQuery(document).ready(function($){
     $( '.converter' ).click(function( event ) {
         var input = document.getElementById('inputText');
-        $('.tasks').prepend('<p>' + input + '<p>');
+        $('.tasks').prepend('<p>' + input.value + '<p>');
     });
 });
